@@ -1,0 +1,20 @@
+In file included from C:\Users\Mark\Documents\GitHub\353GameOfLife\GameBoard.cpp:1:
+C:\Users\Mark\Documents\GitHub\353GameOfLife\GameBoard.h:16:29: error: declaration of 'currentBoard' as multidimensional array must have bounds for all dimensions except the first
+   GameSquare currentBoard[][];
+                             ^
+C:\Users\Mark\Documents\GitHub\353GameOfLife\GameBoard.h:16:29: error: declaration of 'currentBoard' as multidimensional array must have bounds for all dimensions except the first
+   GameSquare currentBoard[][];
+                             ^
+In file included from C:\Users\Mark\Documents\GitHub\353GameOfLife\GameBoard.h:2,
+                 from C:\Users\Mark\Documents\GitHub\353GameOfLife\main.cpp:2:
+C:\Users\Mark\Documents\GitHub\353GameOfLife\GameSquare.h:4:7: error: redefinition of 'class GameSquare'
+ class GameSquare
+       ^~~~~~~~~~
+In file included from C:\Users\Mark\Documents\GitHub\353GameOfLife\main.cpp:1:
+C:\Users\Mark\Documents\GitHub\353GameOfLife\GameSquare.h:4:7: note: previous definition of 'class GameSquare'
+ class GameSquare
+       ^~~~~~~~~~
+In file included from C:\Users\Mark\Documents\GitHub\353GameOfLife\main.cpp:2:
+C:\Users\Mark\Documents\GitHub\353GameOfLife\GameBoard.h:16:29: error: declaration of 'currentBoard' as multidimensional array must have bounds for all dimensions except the first
+   GameSquare currentBoard[][];
+                             ^
