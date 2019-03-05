@@ -7,10 +7,11 @@ public:
   GameSquare(int xCord, int yCord);
   ~GameSquare();
 
+
   int x;
   int y;
 
-  int neighbors[2][8];
+  int neighbors[8][2];
 
   bool occupied;
 
